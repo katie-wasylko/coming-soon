@@ -64,22 +64,23 @@ body {
 
 .image-wrapper h1 {
   position: absolute;
-	top: 36%;
+	top: 33%;
 	padding: 0.1rem;
 	width: 100%;
 	color: #FF7171;
   color: rgba(255, 113, 113, 0.87);
 	text-align: center;
-	font-size: 45px;
+	font-size: 41.3px;
   z-index: 100;
+  line-height: 1em;
 }
 
 .image-wrapper h2 {
   position: absolute;
-  top: 7%;
+  top: 5.5%;
   padding: 0;
   width: 100%;
-  color: white;
+  color: #C2DEDB;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
@@ -87,22 +88,22 @@ body {
 }
 
 .skull {
-  width: 40%;
+  width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10rem;
+  margin-top: -6.5rem;
   position: relative;
   z-index: 100;
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 2rem;
   margin-right: 2rem;
-  color: white;
+  color: #C2DEDB;
   text-align: center;;
-  margin-top: 5.3rem;
+  margin-top: 6.8rem;
   z-index: 100;
 }
 
@@ -119,391 +120,23 @@ footer img {
   width: 13%;
 }
 
-@media only screen and (min-width: 28em) {
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-    background-image: url(../assets/bikebw.jpg);
-    padding-top: 60%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .image-wrapper h1 {
-    position: absolute;
-  	top: 25%;
-  	padding: 0;
-  	width: 100%;
-  	color: deeppink;
-    color: rgba(255, 20, 147, 0.9);
-  	text-align: center;
-  	font-size: 44px;
-  }
-
-  .image-wrapper h2 {
-    position: absolute;
-    top: 55%;
-    padding: 0;
-    width: 100%;
-    color: powderblue;
-    text-align: center;
-    font-size: 14px;
-    font-weight: normal;
-  }
-
-  .selfie {
-    border-radius: 50%;
-    width: 27%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -4rem;
-    position: relative;
-    z-index: 100;
-  }
-
-  p {
-    font-size: 16px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    color: white;
-    text-align: left;
-    margin-top: 1rem;
-  }
-
-  .firstcharacter {
-    float: left;
-    color: deeppink;
-    font-size: 72px;
-    line-height: 60px;
-    padding-top: 0;
-    padding-right: 8px;
-    padding-left: 3px;
-    font-family: Georgia;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  footer img {
-    display: inline-block;
-    border-radius: 5px;
-    width: 15%;
-    margin: 4.5%;
-    margin-top: -.85rem;
-  }
+@media only screen and (min-width: 25em) {
 }
 
 @media only screen and (min-width: 38em) {
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-    background-image: url(../assets/bikebw.jpg);
-    padding-top: 50%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .image-wrapper h1 {
-    position: absolute;
-  	top: 20%;
-  	padding: 0;
-  	width: 100%;
-  	color: deeppink;
-    color: rgba(255, 20, 147, 0.9);
-  	text-align: center;
-  	font-size: 58px;
-  }
-
-  .image-wrapper h2 {
-    position: absolute;
-    top: 55%;
-    padding: 0;
-    width: 100%;
-    color: powderblue;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .skull {
-    width: 23%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -4rem;
-    position: relative;
-    z-index: 100;
-  }
-
-  p {
-    font-size: 16px;
-    margin-left: 1.8rem;
-    margin-right: 1.8rem;
-    color: white;
-    text-align: left;
-    margin-top: 1rem;
-  }
-
-  .firstcharacter {
-    float: left;
-    color: deeppink;
-    font-size: 78px;
-    line-height: 60px;
-    padding-top: 0;
-    padding-right: 8px;
-    padding-left: 3px;
-    font-family: Georgia;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  footer img {
-    display: inline-block;
-    border-radius: 5px;
-    width: 13%;
-    margin: 5.5%;
-    margin-top: -.85rem;
-  }
 }
 
 @media only screen and (min-width: 48em) {
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-    background-image: url(../assets/bikebw.jpg);
-    padding-top: 45%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .image-wrapper h1 {
-    position: absolute;
-  	top: 20%;
-  	padding: 0;
-  	width: 100%;
-  	color: deeppink;
-    color: rgba(255, 20, 147, 0.9);
-  	text-align: center;
-  	font-size: 62px;
-  }
-
-  .image-wrapper h2 {
-    position: absolute;
-    top: 55%;
-    padding: 0;
-    width: 100%;
-    color: powderblue;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .skull {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -5rem;
-    position: relative;
-    z-index: 100;
-  }
-
-  p {
-    font-size: 16px;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    color: white;
-    text-align: left;
-    margin-top: 1rem;
-  }
-
-  .firstcharacter {
-    float: left;
-    color: deeppink;
-    font-size: 78px;
-    line-height: 60px;
-    padding-top: 0;
-    padding-right: 8px;
-    padding-left: 3px;
-    font-family: Georgia;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  footer img {
-    display: inline-block;
-    border-radius: 5px;
-    width: 13%;
-    margin: 5.7%;
-    margin-top: -.85rem;
-  }
-
 }
 
 @media only screen and (min-width: 56em) {
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-    background-image: url(../assets/bikebw.jpg);
-    padding-top: 40%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .image-wrapper h1 {
-    position: absolute;
-  	top: 20%;
-  	padding: 0;
-  	width: 100%;
-  	color: deeppink;
-    color: rgba(255, 20, 147, 0.9);
-  	text-align: center;
-  	font-size: 70px;
-  }
-
-  .image-wrapper h2 {
-    position: absolute;
-    top: 55%;
-    padding: 0;
-    width: 100%;
-    color: powderblue;
-    text-align: center;
-    font-size: 18px;
-  }
-
-  .skull {
-    width: 18%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -5rem;
-    position: relative;
-    z-index: 100;
-  }
-
-  p {
-    font-size: 16px;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    color: white;
-    text-align: left;
-    margin-top: 1rem;
-  }
-
-  .firstcharacter {
-    float: left;
-    color: deeppink;
-    font-size: 78px;
-    line-height: 60px;
-    padding-top: 0;
-    padding-right: 8px;
-    padding-left: 3px;
-    font-family: Georgia;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  footer img {
-    display: inline-block;
-    border-radius: 5px;
-    width: 10%;
-    margin: 7%;
-    margin-top: -.85rem;
-  }
-
 }
 
 @media only screen and (min-width: 64em) {
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-    background-image: url(../assets/bikebw.jpg);
-    padding-top: 35%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .skull {
-    width: 15%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -5rem;
-    position: relative;
-    z-index: 100;
-  }
-
-  p {
-    font-size: 18px;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    color: white;
-    text-align: left;
-    margin-top: 1rem;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-
-  footer img {
-    display: inline-block;
-    border-radius: 5px;
-    width: 8%;
-    margin: 8%;
-    margin-top: -.85rem;
-  }
 }
 
 @media only screen and (min-width: 80em) {
+}
 
-  .image-wrapper {
-    padding-top: 25%;
-  }
-
-  .image-wrapper h1 {
-    font-size: 80px;
-    top: 10%;
-  }
-
-  .image-wrapper h2 {
-    position: absolute;
-    top: 55%;
-    padding: 0;
-    width: 100%;
-    color: powderblue;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .skull {
-    width: 12%;
-  }
-
-  p {
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-
-  footer img {
-    width: 7%;
-    margin: 8.8%;
-    margin-top: -1rem;
-  }
+@media only screen and (min-width: 80em) {
 }
