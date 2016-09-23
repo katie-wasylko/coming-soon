@@ -62,7 +62,7 @@ body {
   z-index: 100;
 }
 
-.image-wrapper h1 {
+h1 {
   position: absolute;
 	top: 33%;
 	padding: 0.1rem;
@@ -75,7 +75,7 @@ body {
   line-height: 1em;
 }
 
-.image-wrapper h2 {
+h2 {
   position: absolute;
   top: 5.5%;
   padding: 0;
@@ -121,22 +121,90 @@ footer img {
 }
 
 @media only screen and (min-width: 25em) {
+
+  .logo {
+    width: 45%;
+  }
+
+  h2 {
+    top: 9%;
+  }
+
+  .skull {
+    margin-top: -8.5rem;
+    width: 50%;
+  }
+
+  h1 {
+    top: 47%;
+    font-size: 55px;
+    line-height: 0.9em;
+  }
+
+  p {
+    margin-top: 8.7rem;
+  }
+
+  footer img {
+    width: 15%;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+  .logo {
+    width: 45%;
+  }
+
+  h2 {
+    top: 11%;
+    font-size: 14px;
+  }
+
+  .skull {
+    margin-top: -11rem;
+    width: 50%;
+  }
+
+  h1 {
+    top: 57%;
+    font-size: 55px;
+  }
+
+  p {
+    margin-top: 6.5rem;
+  }
+
+  footer img {
+    width: 14%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
-}
+  .logo {
+    width: 45%;
+  }
 
-@media only screen and (min-width: 48em) {
-}
+  h2 {
+    top: 14%;
+    font-size: 16px;
+  }
 
-@media only screen and (min-width: 56em) {
-}
+  .skull {
+    margin-top: -15rem;
+    width: 45%;
+  }
 
-@media only screen and (min-width: 64em) {
-}
+  h1 {
+    top: 60%;
+    font-size: 58px;
+  }
 
-@media only screen and (min-width: 80em) {
-}
+  p {
+    margin-top: 5.5rem;
+    font-size: 14px;
+  }
 
-@media only screen and (min-width: 80em) {
+  footer img {
+    width: 10%;
+  }
 }
