@@ -27,43 +27,57 @@ img {
   display: block;
 }
 
-.image-wrapper {
-  position: relative;
-  width: 100%;
+body {
+  margin: 0;
   background-image: url(../assets/bikebw.jpg);
-  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 40%;
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1000;
+}
+
+.image-wrapper {
+  width: 100%;
+  padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
 
 .image-wrapper h1 {
   position: absolute;
-	top: 25%;
-	padding: 0;
+	top: 10%;
+	padding: 0.1rem;
 	width: 100%;
-	color: deeppink;
-  color: rgba(255, 20, 147, 0.9);
+	color: #FF7171;
 	text-align: center;
-	font-size: 32px;
+	font-size: 50px;
 }
 
 .image-wrapper h2 {
   position: absolute;
-  top: 52%;
+  top: 8%;
   padding: 0;
   width: 100%;
-  color: powderblue;
+  color: white;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
 }
 
 .skull {
-  width: 30%;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -3rem;
+  margin-top: -10rem;
   position: relative;
   z-index: 100;
 }
@@ -79,7 +93,7 @@ p {
 
 .firstcharacter {
   float: left;
-  color: deeppink;
+  color: #FF7171;
   font-size: 72px;
   line-height: 60px;
   padding-top: 0;
@@ -90,7 +104,6 @@ p {
 
 footer a {
   text-decoration: none;
-  color: white;
 }
 
 footer img {
