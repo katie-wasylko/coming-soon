@@ -64,13 +64,13 @@ body {
 
 .image-wrapper h1 {
   position: absolute;
-	top: 38%;
+	top: 36%;
 	padding: 0.1rem;
 	width: 100%;
 	color: #FF7171;
   color: rgba(255, 113, 113, 0.87);
 	text-align: center;
-	font-size: 40px;
+	font-size: 45px;
   z-index: 100;
 }
 
