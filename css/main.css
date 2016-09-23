@@ -181,11 +181,11 @@ footer img {
 
 @media only screen and (min-width: 38em) {
   .logo {
-    width: 45%;
+    width: 40%;
   }
 
   h2 {
-    top: 14%;
+    top: 11%;
     font-size: 16px;
   }
 
@@ -206,5 +206,69 @@ footer img {
 
   footer img {
     width: 10%;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .logo {
+    width: 35%;
+  }
+
+  h2 {
+    top: 11%;
+    font-size: 16px;
+  }
+
+  .skull {
+    margin-top: -20rem;
+    width: 30%;
+  }
+
+  h1 {
+    top: 54%;
+    font-size: 62px;
+  }
+
+  p {
+    margin-top: 3rem;
+    font-size: 14px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  footer img {
+    width: 7%;
+  }
+}
+
+@media only screen and (min-width: 56em) {
+  .logo {
+    width: 32%;
+  }
+
+  h2 {
+    top: 11%;
+    font-size: 16px;
+  }
+
+  .skull {
+    margin-top: -25rem;
+    width: 25%;
+  }
+
+  h1 {
+    top: 50%;
+    font-size: 65px;
+  }
+
+  p {
+    margin-top: -3rem;
+    font-size: 14px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  footer img {
+    width: 7%;
   }
 }
