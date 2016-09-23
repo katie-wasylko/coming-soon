@@ -13,13 +13,12 @@ html {
   font: normal 100%/1.3 Verdana, sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+html, body {
+  height: 100%;
 }
 
-body {
-  margin: 0;
-  background-color: powderblue;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 img {
@@ -32,6 +31,17 @@ body {
   background-image: url(../assets/bikebw.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  background-color: rgba(22, 51, 66, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
 }
 
 .logo {
@@ -49,6 +59,7 @@ body {
   padding-top: 50%;
   background-size: cover;
   background-position: center;
+  z-index: 100;
 }
 
 .image-wrapper h1 {
@@ -57,19 +68,22 @@ body {
 	padding: 0.1rem;
 	width: 100%;
 	color: #FF7171;
+  color: rgba(255, 113, 113, 0.87);
 	text-align: center;
 	font-size: 40px;
+  z-index: 100;
 }
 
 .image-wrapper h2 {
   position: absolute;
-  top: 8%;
+  top: 7%;
   padding: 0;
   width: 100%;
   color: white;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
+  z-index: 100;
 }
 
 .skull {
@@ -88,19 +102,21 @@ p {
   margin-right: 2rem;
   color: white;
   text-align: center;;
-  margin-top: 4.5rem;
+  margin-top: 5.3rem;
+  z-index: 100;
 }
 
+.social {
+  text-align: center;
+  z-index: 100;
+}
 footer a {
   text-decoration: none;
 }
 
 footer img {
   display: inline-block;
-  border-radius: 5px;
-  width: 20%;
-  margin: 5% 14%;
-  margin-top: -.85rem;
+  width: 13%;
 }
 
 @media only screen and (min-width: 28em) {
