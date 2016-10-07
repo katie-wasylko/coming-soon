@@ -122,12 +122,33 @@ footer img {
 
 @media only screen and (min-width: 25em) {
 
+  p {
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+  }
 
 @media only screen and (min-width: 30em) {
 
+  p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 
 @media only screen and (min-width: 38em) {
 
+  .skull {
+    width: 11rem;
+  }
+
+  h2 {
+    top: 18.3rem;
+    font-size: 45px;
+  }
+
+  p {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 
 @media only screen and (min-width: 48em) {
 
